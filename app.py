@@ -4,7 +4,7 @@ import plotly.express as px
 import pandas as pd
 
 # Cargar datos
-df = pd.read_csv("/mnt/data/ds.csv")
+df = pd.read_csv("ds.csv")
 
 # Inicializar la aplicación Dash
 app = dash.Dash(__name__)
